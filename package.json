@@ -4,7 +4,8 @@
   "description": "a simple telegram bot for learning purposes",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "victor orlunda <vicorlunda@gmail.com>",
   "license": "MIT",
