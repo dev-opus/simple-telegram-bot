@@ -12,5 +12,8 @@
     "dotenv": "^16.0.0",
     "telegraf": "^4.7.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
