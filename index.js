@@ -62,13 +62,13 @@ function main() {
     );
   });
 
-  bot.action('contact-me', ctx => {
+  bot.action(/contact-me/i, ctx => {
     ctx.reply(
       `${randomReply()} Nice getting intouch with you, my username is @@hiatus_0`
     );
   });
 
-  bot.action('hello', ctx => {
+  bot.action(/hello/i, ctx => {
     ctx.reply(`${randomReply()} I think you're awesome! 😇`);
   });
 
@@ -76,7 +76,7 @@ function main() {
     ctx.reply(`${randomReply()} Nice sticker! ✨`);
   });
 
-  bot.hears('hello', ctx => {
+  bot.hears(/hello/i, ctx => {
     ctx.reply(`${randomReply()} I think you're awesome! 😇`);
   });
 
